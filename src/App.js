@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <p>
+        Do the following:
+         <ul>
+          <li className="check">be downloadable</li>
+          <li className="check">function without connection</li>
+          <li className="cross">save data locally</li>
+          <li className="cross">send push notifications</li>
+          <li className="cross">push data to some api when service becomes available</li>
+         </ul>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
