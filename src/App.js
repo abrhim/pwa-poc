@@ -10,7 +10,7 @@ function App() {
           <li className="check">install to home screen</li>
           <li className="cross">save data to device</li>
           <li className="cross">send push notifications</li>
-          <li className="cross">push data to some api when service becomes available</li>
+          <li className="cross">push data to some api when internet becomes available</li>
          </ul>
         </p>
     </div>
