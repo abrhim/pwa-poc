@@ -28,3 +28,8 @@ body {
   /* vertical-align: center; */
   margin-left: 15%;
 }
+
+code a {
+  color: #cfd1d1;
+  text-decoration: none;
+}
